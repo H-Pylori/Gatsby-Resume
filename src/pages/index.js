@@ -23,10 +23,9 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+            I am experienced web developer, with a genuine passion for learning
+            and building. I love finding elegant solutions to complex problems.
+            I always create clean reusable code.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -45,14 +44,14 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
+        id="portfolio"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Portfolio</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
+              <h3 className="mb-0">Long Leaf Designs</h3>
               <div className="subheading mb-3">Intelitec Solutions</div>
               <p>
                 Bring to the table win-win survival strategies to ensure
@@ -121,41 +120,6 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="education"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Education</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="skills"
@@ -177,13 +141,16 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
             <li className="list-inline-item">
+              <i className="fab fa-angular"></i>
+            </li>
+            <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-python"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
@@ -224,6 +191,39 @@ const IndexPage = () => (
               Agile Development &amp; Scrum
             </li>
           </ul>
+        </div>
+      </section>
+
+      <hr className="m-0" />
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Education</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">University of Colorado Boulder</h3>
+              <div className="subheading mb-3">Bachelor of Science</div>
+              <div>Computer Science - Web Development Track</div>
+              <p>GPA: 3.23</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">August 2006 - May 2010</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">James Buchanan High School</h3>
+              <div className="subheading mb-3">Technology Magnet Program</div>
+              <p>GPA: 3.56</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">August 2002 - May 2006</span>
+            </div>
+          </div>
         </div>
       </section>
 

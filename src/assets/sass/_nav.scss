@@ -17,7 +17,7 @@
     position: fixed;
     top: 0;
     left: 0;
-
+    border-right: 6px solid $dark;
     display: flex;
     flex-direction: column;
 
@@ -30,8 +30,8 @@
       padding: 0.5rem;
       .img-profile {
         max-width: 10rem;
-        max-height: 10rem;
         border: 0.5rem solid fade-out($white, 0.8);
+        background-color: $light-blue;
       }
     }
     .navbar-collapse {
